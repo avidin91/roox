@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.layout {
+    min-height: var(--main-layout-min-height);
+    padding: var(--main-layout-padding);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}

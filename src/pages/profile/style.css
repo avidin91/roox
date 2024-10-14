@@ -1,0 +1,18 @@
+.profile {
+  width: 665px;
+  min-height: var(--main-layout-min-height);
+}
+
+.profile-aside {
+  width: 152px;
+  background-color: var(--grey);
+  padding: 35px 20px;
+}
+
+.profile main {
+  padding: 20px 0;
+}
+
+.profile-submit-button {
+  align-self: flex-end;
+}

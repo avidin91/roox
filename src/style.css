@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --header-height: 50px;
+    --footer-height: 100px;
+    --header-footer-border: 1px;
+    --header-footer-border-color: #d2d0d0;
+
+    --main-layout-padding: 24px;
+    --main-layout-min-height: calc(100vh - var(--header-height) - var(--footer-height) - calc(var(--header-footer-border) * 2) - calc(var(--main-layout-padding) * 2));
+
+    --yellow: #f8da5e;
+    --yellow-hover: #f6e183;
+
+    --black: #1e1e1e;
+
+    --white: #ffffff;
+
+    --grey: #bdbdbd;
+    --grey-text: #a3a3a3;
+
+    --primary: #4B51EF;
+    --primary-hover: #989bec;
+}

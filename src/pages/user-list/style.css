@@ -1,0 +1,14 @@
+.user-list {
+  width: 665px;
+  min-height: var(--main-layout-min-height);
+}
+
+.user-list-sort {
+  width: 152px;
+  background-color: var(--grey);
+  padding: 35px 20px;
+}
+
+.user-list main {
+  padding: 20px 0;
+}

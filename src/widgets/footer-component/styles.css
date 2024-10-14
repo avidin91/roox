@@ -1,0 +1,5 @@
+.footer-component {
+    bottom: 0;
+    height: var(--footer-height);
+    border-top: var(--header-footer-border) solid var(--header-footer-border-color);
+}

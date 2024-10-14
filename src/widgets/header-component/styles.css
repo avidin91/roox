@@ -1,0 +1,26 @@
+.header-component {
+    padding: 0 128px;
+    border-bottom: var(--header-footer-border) solid var(--header-footer-border-color);
+    height: var(--header-height);
+}
+
+.header-component a[href^="tel:"] {
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-component img {
+    max-height: 40px;
+}
+
+.logo {
+    font-size: 60px;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke: 2px #ff7704;
+    -webkit-text-fill-color: transparent;
+}
